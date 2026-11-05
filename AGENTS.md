@@ -1,9 +1,9 @@
-# Module agent guidance — Laravel · Inertia · React
+# Capability module guidance — Product and engineering, Laravel · Inertia · React
 
-Read README.md and the [layer runbook](https://github.com/liberusoftware/documentation/blob/main/guides/presentation/INERTIA.md). This is a reusable presentation package, not an application host or a domain owner.
+Read README.md and the [capability presentation plan](https://github.com/liberusoftware/documentation/blob/main/projects/sap/react/product-and-engineering.md). Exact ownership key: `planned:sap:product-and-engineering`. Naming conflict review required: `false`.
 
-- Keep explicit public exports and independent package metadata. Package identities must match their actual runtime; Composer is for PHP, npm for JS/TS, pub for Dart.
-- Add reviewed contract mapping, injected transport and accessible presentation without copying Laravel policies or records. Do not invent endpoints.
-- Keep framework navigation, session, server/client and native lifecycle boundaries explicit. Clear scoped data on logout; reconcile uncertain writes before retry.
-- Build and inspect the packed artifact, then check a clean consumer. Framework peer ranges are intended targets until actual integration checks establish compatibility.
-- Preserve prerelease status and source ownership references. Do not claim implemented features from generated metadata or publish to registries without authorization.
+- This is a reusable npm presentation package. Keep explicit exports, actual package identities and independent release metadata. Application hosts own routing, navigation, session composition and deployment.
+- Keep core behavior, tenant authorization, policies, records, transactions and durable events in canonical Laravel owners. Use reviewed public contracts; never invent endpoints, replace source owners silently or copy host App aliases into reusable packages.
+- Add only this capability's UI/transport mapping. Preserve framework-specific server/client, Inertia, native lifecycle and cache boundaries described in the [layer guide](https://github.com/liberusoftware/documentation/blob/main/guides/presentation/INERTIA.md).
+- Verify package builds and clean consumers. Add meaningful access, tenant, validation, concurrency and recovery tests when real workflows exist. Current skeleton metadata proves no business behavior.
+- Keep secrets outside source and client bundles. Clear scoped state on logout. Do not publish to registries or deploy without task authorization.

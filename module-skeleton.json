@@ -1,0 +1,15 @@
+{
+  "repository": "module-sap-product-and-engineering-react-inertia",
+  "capabilityKey": "planned:sap:product-and-engineering",
+  "presentation": "laravel-inertia-react",
+  "package": "@liberusoftware/module-sap-product-and-engineering-react-inertia",
+  "foundation": "module-boilerplate-react-inertia",
+  "foundationCommit": "5a2d7f53327e9648efd68af033e1876ce1cf20f0",
+  "canonicalPlan": "projects/sap/nextjs/product-and-engineering.md",
+  "presentationPlan": "projects/sap/react/product-and-engineering.md",
+  "identityReviewRequired": false,
+  "status": "skeleton",
+  "documentedConsumerScopes": [
+    "sap"
+  ]
+}

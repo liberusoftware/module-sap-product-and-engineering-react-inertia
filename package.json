@@ -1,7 +1,7 @@
 {
-  "name": "@liberusoftware/module-boilerplate-react-inertia",
+  "name": "@liberusoftware/module-sap-product-and-engineering-react-inertia",
   "version": "0.1.0-alpha.0",
-  "description": "Liberu Laravel \u00b7 Inertia \u00b7 React presentation module foundation",
+  "description": "Product and engineering \u2014 Laravel \u00b7 Inertia \u00b7 React presentation skeleton",
   "type": "module",
   "license": "MIT",
   "files": [
@@ -40,6 +40,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/liberusoftware/module-boilerplate-react-inertia.git"
+    "url": "https://github.com/liberusoftware/module-sap-product-and-engineering-react-inertia.git"
   }
 }
